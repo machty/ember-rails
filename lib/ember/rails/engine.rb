@@ -1,4 +1,5 @@
 require 'ember/handlebars/template'
+require 'ember/emblem/template'
 require 'active_model_serializers'
 
 module Ember
@@ -20,6 +21,8 @@ module Ember
         sprockets.register_engine '.handlebars', Ember::Handlebars::Template
         sprockets.register_engine '.hbs', Ember::Handlebars::Template
         sprockets.register_engine '.hjs', Ember::Handlebars::Template
+
+        sprockets.register_engine '.emblem', Ember::Emblem::Template
       end
     end
   end
