@@ -1,3 +1,14 @@
+
+### NOTE: This is an Emblem.js-enabled fork of ember-rails
+
+**Important: please add the following to your gem file until another
+version of `barber is pushed`**
+
+```
+gem 'barber', git: 'https://github.com/machty/barber.git'
+```
+
+
 # ember-rails  [![Build Status](https://secure.travis-ci.org/emberjs/ember-rails.png?branch=master)](http://travis-ci.org/emberjs/ember-rails) [![Dependency Status](https://gemnasium.com/emberjs/ember-rails.png)](https://gemnasium.com/emberjs/ember-rails)
 
 ember-rails allows you to include [Ember.JS](http://emberjs.com/) into your Rails 3.1+ application.
