@@ -1,11 +1,8 @@
 
 ### NOTE: This is an Emblem.js-enabled fork of ember-rails
 
-**Important: please add the following to your gem file until another version of `barber is pushed`**
-
-```
-gem "barber", "~> 0.2.1"
-```
+Templates ending in .emblem will be (pre)compiled in the same pattern as
+Handlebars.
 
 
 # ember-rails  [![Build Status](https://secure.travis-ci.org/emberjs/ember-rails.png?branch=master)](http://travis-ci.org/emberjs/ember-rails) [![Dependency Status](https://gemnasium.com/emberjs/ember-rails.png)](https://gemnasium.com/emberjs/ember-rails)
