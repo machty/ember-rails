@@ -1,11 +1,10 @@
 
 ### NOTE: This is an Emblem.js-enabled fork of ember-rails
 
-**Important: please add the following to your gem file until another
-version of `barber is pushed`**
+**Important: please add the following to your gem file until another version of `barber is pushed`**
 
 ```
-gem 'barber', git: 'https://github.com/machty/barber.git'
+gem "barber", "~> 0.2.1"
 ```
 
 
