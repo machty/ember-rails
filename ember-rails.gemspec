@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_dependency "railties", [">= 3.1"]
   s.add_dependency "active_model_serializers"
   s.add_dependency "barber"
-  s.add_dependency "barber-emblem"
+  s.add_dependency "barber-emblem", [">= 0.0.2"]
 
   s.add_development_dependency "bundler", [">= 1.2.2"]
   s.add_development_dependency "appraisal"
